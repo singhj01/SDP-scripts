@@ -1,0 +1,6 @@
+name: MongoDB
+description: MongoDB
+provider: TUB
+nfvo_version: 6.0.0
+vim_types:
+ - docker

@@ -2,9 +2,17 @@ name: sdp-controller
 provider: JAS
 nfvo-version: 6.0.0
 vim_types:
- - openstack
+ - docker    
 image:
-    upload: true
+    upload: "false"
     names:
-      - ubuntu-14.04.5-server-amd64
-    link: "http://releases.ubuntu.com/14.04/ubuntu-14.04.5-server-amd64.iso"
+        - "ubuntu:14.04"
+    link: "ubuntu:14.04"
+image-config:
+    name: "ubuntu:14.04"
+    diskFormat: QCOW2
+    containerFormat: BARE
+    minCPU: 0
+    minDisk: 0
+    minRam: 0
+    isPublic: false
