@@ -25,7 +25,7 @@ INSERT INTO service VALUES(1,'controller', 'controller' );
 INSERT INTO service VALUES(2,'tcp', 'tcp' );
 INSERT INTO service VALUES(3,'udp', 'udp' );
 
-INSERT INTO service_gateway (id,service_id, gateway_sdpid, protocol, port, nat_ip, nat_port) VALUES(1, 1, 1 ,'tcp',5000, '10.10.10.102', 5000);
+INSERT INTO service_gateway (id,service_id, gateway_sdpid, protocol, port, nat_ip, nat_port) VALUES(1, 1, 1 ,'tcp',5000, 'sdpController', 5000);
 INSERT INTO service_gateway (id,service_id, gateway_sdpid, protocol, port, nat_ip, nat_port) VALUES(2, 2, 1 ,'tcp',$service_port, '$service_host', $service_port);
 #populate sdpid_service
 INSERT INTO sdpid_service VALUES (1, 1, 1);
