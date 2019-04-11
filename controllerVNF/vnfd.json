@@ -1,5 +1,5 @@
 {
-    "name":"sdp-controller",
+    "name":"sdpController",
     "vendor":"JAS",
     "version":"1.0.0",
     "lifecycle_event":[
