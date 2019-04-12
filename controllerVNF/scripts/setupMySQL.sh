@@ -7,9 +7,9 @@ git clone https://github.com/waverleylabs/SDPController.git
 cd SDPController
 sudo npm install
 #login to the database
-mysql -u root -proot -e "create user 'sdpController'@'localhost' identified by 'root';"
-mysql -u root -proot -e "create database sdp;"
-mysql -u root -proot -e "grant all privileges on sdpControler.* to 'sdpControler'@'localhost';flush privileges;"
+mysql -u root -p -e "create user 'sdpController'@'localhost' identified by 'root';"
+mysql -u root -p -e "create database sdp;"
+mysql -u root -p -e "grant all privileges on sdpControler.* to 'sdpControler'@'localhost';flush privileges;"
 
 #import the db to the controller
 cd setup
