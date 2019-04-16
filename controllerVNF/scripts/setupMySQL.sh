@@ -7,6 +7,7 @@ sudo npm install
 #login to the database
 service mysql start
 mysql -u root -e "create database sdp;"
+
 #import the db to the controller
 cd setup
 mysql -u root sdp < sdp.sql
