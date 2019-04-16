@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-node ./SDPController/sdpController.js
+service mysql start
+sudo node ./SDPController/sdpController.js
