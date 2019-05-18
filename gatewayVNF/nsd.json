@@ -1,5 +1,5 @@
 {
-  "name": "controller",
+  "name": "gateway",
   "vendor": "JAS",
   "version": "docker",
   "vld": [{
@@ -7,7 +7,7 @@
   }],
   "vnfd": [
     {
-      "name":"controller",
+      "name":"gateway",
       "vendor":"JAS",
       "version":"docker",
       "deployment_flavour":[
@@ -17,7 +17,7 @@
       ],
       "vdu":[
         {
-          "vm_image":["controller:latest"],
+          "vm_image":["gateway:latest"],
           "scale_in_out":3,
           "vnfc":[
         {
