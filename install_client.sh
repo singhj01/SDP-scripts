@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 sudo apt-get update
 git clone https://github.com/WaverleyLabs/fwknop.git
