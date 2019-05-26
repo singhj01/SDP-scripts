@@ -17,5 +17,5 @@ yes Y  | sudo cp gate.fwknoprc /etc/fwknop/
 fwknopd -f 
 netcat -l 4444
 while true; do
-    echo 'Dont close please'
+    sleep 100
 done

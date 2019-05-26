@@ -1,0 +1,12 @@
+nc -l -p 4444 > 1.crt
+nc -l -p 4444 > 1.key
+nc -l -p 4444 > 1.spa_keys
+nc -l -p 4444 > ca.crt
+
+nc -w 3 ipaddress 4444 < 1.key
+nc -w 3 ipaddress 4444 < 1.crt
+nc -w 3 ipaddress 4444 < 1.spa_keys
+nc -w 3 ipaddress 4444 < ca.crt
+
+
+
