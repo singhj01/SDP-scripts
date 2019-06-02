@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-sudo apt-get update
+sudo apt-get update -y
+sudo apt-get -y install texinfo libtool autoconf make telnet openssl libssl-dev libjson0 libjson0-dev libpcap-dev git
 git clone https://github.com/WaverleyLabs/fwknop.git
-sudo apt-get install texinfo libtool autoconf make telnet openssl libssl-dev libjson0 libjson0-dev libpcap-dev
-cd fwkop
+cd fwknop
 libtoolize --force
 aclocal
 autoheader

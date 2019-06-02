@@ -9,4 +9,4 @@ nc -w 3 ipaddress 4444 < 1.spa_keys
 nc -w 3 ipaddress 4444 < ca.crt
 
 
-
+ echo 1 > /proc/sys/net/ipv4/ip_forward
